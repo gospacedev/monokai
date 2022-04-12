@@ -1,2 +1,2 @@
 # csv-parser
-A simple CSV Parser
+A CSV Parser
