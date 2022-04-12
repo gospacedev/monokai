@@ -45,7 +45,7 @@ func main() {
             },
         })
 	}
-		//MarshalIndent adds json newlines
+	//MarshalIndent adds json newlines
 	b, err := json.MarshalIndent(data, "", "  ")
 	if err != nil {
 		log.Fatal(err)
