@@ -53,3 +53,42 @@ func main() {
 
 	fmt.Printf("%s\n", b)
 }
+
+
+/*
+From this:
+Sam Cool, samcool08@email.com, 555-3753, New York, USA
+Alex Cool, alexcool72@monkeymail.com, 555-7838, Tokyo, Japan
+Jim Blue, jimcool@monkeymail.com, 555-3775, Manila, Philippines
+
+To this:
+[
+  {
+    "name": "Sam Cool",
+    "emailAddress": " samcool08@email.com",
+    "phoneNumber": " 555-3753",
+    "address": {
+      "city": " New York",
+      "country": " USA"
+    }
+  },
+  {
+    "name": "Alex Cool",
+    "emailAddress": " alexcool72@monkeymail.com",
+    "phoneNumber": " 555-7838",
+    "address": {
+      "city": " Tokyo",
+      "country": " Japan"
+    }
+  },
+  {
+    "name": "Jim Blue",
+    "emailAddress": " jimcool@monkeymail.com",
+    "phoneNumber": " 555-3775",
+    "address": {
+      "city": " Manila",
+      "country": " Philippines"
+    }
+  }
+]
+*/
