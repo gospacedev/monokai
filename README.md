@@ -1,2 +1,2 @@
 # csv-parser
-A CSV Parser
+An example of parsing a csv to a json in golang
