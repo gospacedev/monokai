@@ -1,0 +1,56 @@
+/*Where text goes*/
+.main {
+    padding: 5%;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*Side content*/
+
+/*hero img*/
+.hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("hero-image.png");
+    height: 60%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+div.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+div.navbar li {
+    float: left;
+}
+
+div.navbar li a {
+    font-size: larger;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+div.navbar a:hover{
+    color: gray;
+}
+
+li.navheader{
+    float: left;
+}
